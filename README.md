@@ -87,4 +87,10 @@ This is a responsive and modern E-Commerce web application built using **React.j
 
 MIT License — feel free to use and modify.
 
+
+    ---
+
+👨‍💻 Author
+
+- [@DAbharat](https://github.com/DAbharat)
   
