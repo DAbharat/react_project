@@ -2,7 +2,7 @@ import service from "./config";
 import { ID } from "appwrite";
 
 const DATABASE_ID = "appwriteDatabaseId";
-const COLLECTION_ID = "appwriteCollectionId"; // Use your actual collection ID
+const COLLECTION_ID = "appwriteCollectionId";
 
 export async function placeOrder(userId, cartItems, totalAmount) {
   try {
@@ -14,7 +14,7 @@ export async function placeOrder(userId, cartItems, totalAmount) {
         userId,
         items: JSON.stringify(cartItems),
         totalAmount,
-        status: "Pending", // default status
+        status: "Pending", 
         createdAt: new Date().toISOString(),
       }
     );
