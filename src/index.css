@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #31231e;
+  --color-secondary: #8b939c;
+  --color-home: #ffe5d4;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
