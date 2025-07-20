@@ -1,12 +1,98 @@
-# React + Vite
+# 🛒 E-Commerce Store App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive and modern E-Commerce web application built using **React.js** and **Tailwind CSS**. It allows users to browse products, add items to the cart, and proceed through a checkout and payment flow. Authentication and backend functionality are powered by **Appwrite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features Implemented
 
-## Expanding the ESLint configuration
+- 🖥️ Responsive design for mobile & desktop
+- 👤 User Authentication (Signup / Login / Logout)
+- 🛍️ Product Listing with dynamic cards
+- ➕ Add to Cart functionality
+- 🧾 Cart page with quantity and total
+- 📦 Checkout page
+- 💳 Payment options page with UPI, Credit Card, Debit Card, and COD (UI)
+- 🔐 Protected routes for authenticated users
+- 🖼️ Empty cart illustration and redirect to continue shopping
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, React Router
+- **Backend**: Appwrite (Authentication, Database, Storage)
+- **Others**: Git, GitHub
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+
+   ---
+   
+2. Install dependencies
+   ```bash
+   npm install
+
+   ---
+
+ 3. Run the development server:
+     ```bash
+    npm run dev
+
+
+    ---
+   
+
+ 4. Create a .env file in the root with the following environment variables:
+    VITE_APPWRITE_ENDPOINT=your-endpoint
+    VITE_APPWRITE_PROJECT_ID=your-project-id
+    VITE_APPWRITE_DATABASE_ID=your-db-id
+    VITE_APPWRITE_COLLECTION_ID=your-collection-id
+    VITE_APPWRITE_BUCKET_ID=your-bucket-id
+   
+  
+    ---
+
+   
+
+📌 Project Structure
+   src/
+   ├── components/         # Reusable UI components
+   ├── pages/              # Main screens (Home, Cart, Checkout, etc.)
+   ├── appwrite/           # Appwrite config and service logic
+   ├── App.jsx             # Root component
+   ├── main.jsx            # Entry point
+   public/
+   ├── favicon, etc.
+   .env                    # Appwrite environment variables
+   
+
+    ---
+
+
+🧩 To-Do / In Progress
+
+ -> Add real payment gateway integration (currently UI only)
+
+ -> Complete product upload/admin interface
+
+ -> Add order history for users
+
+ -> Improve error handling and form validations
+
+ -> Add user profile page (with editable info)
+
+ -> Polish UI and animations
+
+    ---
+
+
+  📄 License
+  MIT
+
+  
