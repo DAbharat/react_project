@@ -58,41 +58,33 @@ This is a responsive and modern E-Commerce web application built using **React.j
   
     ---
 
-   
 
-📌 Project Structure
-   src/
-   ├── components/         # Reusable UI components
-   ├── pages/              # Main screens (Home, Cart, Checkout, etc.)
-   ├── appwrite/           # Appwrite config and service logic
-   ├── App.jsx             # Root component
-   ├── main.jsx            # Entry point
-   public/
-   ├── favicon, etc.
-   .env                    # Appwrite environment variables
-   
+
+## 🧠 What's Working
+
+- Authentication with Appwrite
+- Basic cart flow
+- Order placement saves to Appwrite DB
+- Navigation & routing set up
+
+  ---
+
+## 🛠️ What's Left to Do
+
+- ✅ Full UI for checkout & payment method selection
+- ✅ Profile page to list user’s past orders
+- ⚠️ Persist cart between sessions
+- 📱 Improve form validation & error handling
+- 🧾 Add real payment integrations (UPI, card, COD simulated)
+- 🎨 Mobile-friendly responsive UI
+- 🔐 Secure Appwrite rules and environment
+
 
     ---
 
 
-🧩 To-Do / In Progress
+  ## ✍️ License
 
- -> Add real payment gateway integration (currently UI only)
-
- -> Complete product upload/admin interface
-
- -> Add order history for users
-
- -> Improve error handling and form validations
-
- -> Add user profile page (with editable info)
-
- -> Polish UI and animations
-
-    ---
-
-
-  📄 License
-  MIT
+MIT License — feel free to use and modify.
 
   
