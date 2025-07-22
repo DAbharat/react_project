@@ -49,6 +49,8 @@ This is a responsive and modern E-Commerce web application built using **React.j
    
 
  4. Create a .env file in the root with the following environment variables:
+    
+    ```bash
     VITE_APPWRITE_ENDPOINT=your-endpoint
     VITE_APPWRITE_PROJECT_ID=your-project-id
     VITE_APPWRITE_DATABASE_ID=your-db-id
@@ -57,8 +59,6 @@ This is a responsive and modern E-Commerce web application built using **React.j
    
   
     ---
-
-
 
 ## 🧠 What's Working
 
